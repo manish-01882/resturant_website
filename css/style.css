@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 3rem;
+    font-family: var(--font-family-1);
+
+}
+/* Variables */
+
+:root{
+    --brown: #4b1204;
+    --yellow-color: #ffa10a;
+    --text-color: #121212;
+    --container-color: #efe8e0;
+    --red: #a72e1b;
+    --bg-color: #fff;
+    --text-alter-color: #94908e;
+    --font-family-1: "Mitr", sans-serif;
+    --font-family-2:  "Righteous", sans-serif;
+}
+
+body{
+    color: var(--text-color);
+    background: var(--bg-color) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+.container{
+    max-width: 1400px;
+    margin:auto;
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--red);
+    border-bottom: 1px solid rgb(red, green, blue/ 10%);
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+
+}
+
+.logo img{
+    width: 75px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    
+}
